@@ -1,14 +1,14 @@
 <template>
-    <AuthForm />
+    <LoginScreen />
 </template>
 
 <script>
-import AuthForm from './components/AuthForm.vue';
+import LoginScreen from './Views/Login.vue';
 
 export default {
     name: 'App',
     components: {
-        AuthForm
+        LoginScreen
     }
 }
 </script>

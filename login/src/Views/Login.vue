@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import AuthForm from './components/AuthForm.vue';
+import AuthForm from '../components/AuthForm.vue';
 
 export default {
     name: 'LoginScreen',
@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('./assets/cyberpunk-background-site.jpg');
+    background-image: url('../assets/cyberpunk-background-site.jpg');
     background-size: cover;
 }
 </style>
